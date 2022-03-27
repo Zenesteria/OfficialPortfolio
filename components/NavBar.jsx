@@ -22,7 +22,7 @@ const NavBar = () => {
             <div className="flex w-full h-fit">
                 <Link href='/' passHref>
                     <a className="flex h-fit items-center px-2 w-[20%] min-w-[200px] justify-center">
-                        <Image src='/img/logo.png' width='40' height='44' alt=' '/>
+                        <Image src='/images/logo.png' width='40' height='44' alt=' '/>
                         <h1 className='ml-2 xl:text-[1.3rem] font-raleway'>Creatives Atlas</h1>
                     </a>
                 </Link>

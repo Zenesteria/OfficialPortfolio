@@ -14,7 +14,7 @@ const Main = () => {
             <p data-aos='fade-right' data-aos-duration='1000' data-aos-delay='1600' className=" max-w-[500px] text-white mb-4 font-medium">
                 {"A curative storyteller, designer with an eye for detail and a dedicated developer to match. I am Nigerian by nationality, currently a fourth-year electrical electronics engineering student at AFIT."}
             </p>
-            <Link href='/Contact'>
+            <Link href='/About'>
                 <a className="flex border-[2px] text-white font-medium border-white px-[2.5rem] xl:text-[1.2rem] py-4 rounded-2xl my-4 tracking-widest hover:text-white hover:bg-purple-800 hover:border-transparent transition-all duration-500">
                     Learn More.
                 </a>

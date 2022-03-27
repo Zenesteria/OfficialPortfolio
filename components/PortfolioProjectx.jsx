@@ -1,6 +1,4 @@
-import portfolioData from "../data/portfolioData"
-// import aboutPic from "../public/images/contact.png"
-import { useState, useEffect } from "react"
+import { useState} from "react"
 
 export default function PortfolioProjects () {
     const [background, setBackground] = useState("url('/images/project1.png')")
@@ -10,11 +8,8 @@ export default function PortfolioProjects () {
         setBackground(`url('/images/${currentBackdropName}')`)
 
     }
-    useEffect(() => {
-        console.log(background)
-    }, [background])
     return(
-        <div className="flex w-full flex-col">
+        <div data-aos='fade-up' data-aos-once='true' data-aos-duration='1200' data-aos-delay='700' data-aos-anchor-placement='center-bottom' className="flex w-full flex-col">
             <h1 className="w-full text-center text-[3rem] tracking-widest text-white font-light">Featured Projects</h1>
             <div className="flex flex-1 flex-col-reverse xl:flex-row flex-wrap items-center justify-center w-full h-fit min-h-[50vh] p-5 xl:p-10 my-10 xs:my-0 ">
                 <div className="flex flex-col items-center w-[340px] h-[340px] xs:w-[400px] xs:h-[400px] md:w-[500px] md:h-[500px] lg:w-[600px] lg:h-[600px] xl:w-[600px] m-auto xl:h-[600px] rounded-full border-2 border-transparent circle">
